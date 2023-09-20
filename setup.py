@@ -10,5 +10,5 @@ setup(
     author_email='zfei@zju.edu.cn',
     keywords=['rosbagpy'],
     url='https://github.com/AgRoboticsResearch/rosbag_utils',
-    install_requires=['scipy'],
+    install_requires=['scipy', 'pycryptodomex', 'rosbag', 'gnupg'],
 )
