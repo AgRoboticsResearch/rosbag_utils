@@ -81,15 +81,15 @@ else:
 
     def create_timelist(bag, topic):
         time_list = []
-        row_time_list = []
+        ros_time_list = []
         i = 0
         for topic, msg, t in bag.read_messages(topics=topic):
             time_list.append([t.to_sec(), i])
-            row_time_list.append(t)
+            ros_time_list.append(t)
             i += 1
         print("%s: %i " % (topic, len(time_list)))
         time_list = np.asarray(time_list)
-        return time_list, row_time_list
+        return time_list, ros_time_list
 
     def retrive_image(
         n_idx,
