@@ -9,6 +9,6 @@ setup(
     author='Zhenghao Fei',
     author_email='zfei@zju.edu.cn',
     keywords=['rosbagpy'],
-    url='https://github.com/bgse/rosbagpy',
+    url='https://github.com/AgRoboticsResearch/rosbag_utils',
     install_requires=['scipy'],
 )
